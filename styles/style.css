@@ -16,7 +16,7 @@
   position: relative;
   display: flex;
   background-color: #f2f2f2;
-  z-index: -1
+  z-index: -1;
 }
 
 .logo {
@@ -28,6 +28,7 @@
   position: absolute;
   top: 30px;
   left: 64px;
+
  }
 
 .header__title {
@@ -66,15 +67,13 @@
   bottom: 0;
   right: 0;
   background-size: cover;
-  z-index: 1
+  z-index: 1;
 }
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
-  position: absolute;
-  width: 568px;
-  height: 568px;
+  position: absolute;;
   align-self: flex-end;
   justify-content: flex-end;
   right: 0;
@@ -285,7 +284,6 @@
   top: 0;
   right: -210px;
   z-index: -1;
-  overflow: hidden;
 }
 
 .footer {

@@ -37,7 +37,8 @@
   font-weight: 700;
   line-height: 96px;
   left: 64px;
-  position: absolute;
+  position: relative;
+
 }
 
 .header__subtitle {
@@ -115,7 +116,7 @@
   width: 80%;
 }
 
-.main-text__paragraph {
+.two-columns__paragraph {
   margin: 0 auto;
   margin-bottom: 30px;
 }
@@ -330,12 +331,12 @@
   font-weight: normal;
 }
 
-.footer__column_info {
+.footer__column_content_info {
   flex-direction: column;
   align-items: flex-end;
 }
 
-.footer__column_social {
+.footer__column_content_social {
   flex-direction: column;
   align-items: flex-end;
 }

@@ -4,4 +4,12 @@
   z-index: 3;
   font-size: 18px;
   font-weight: normal;
+  cursor: pointer;
+  transition: opacity .1s linear;
 }
+
+.header__link:hover {
+  opacity: .9;
+  color: red;
+}
+

@@ -2,10 +2,16 @@
   height: 568px;
   width: 568px;
   position: absolute;
-  align-self: flex-end;
-  justify-content: flex-end;
   right: 0;
   top: 64px;
   background-color: #2f80ed;
   z-index: 1;
 }
+
+
+
+
+
+
+
+
